@@ -1,0 +1,166 @@
+/*设置页面总宽度*/
+*{
+	padding:0;
+	margin: 0;
+}
+body{
+	background-color:#f5f5f5 ;
+}
+
+#container{
+	width: 1024px;
+	margin: 0 auto;
+}
+#banner{
+	width: 1024px;
+	height: 80px;
+	background-image: url(../images/banner-bg.png);
+}
+
+/*为banner上的导航设置样式*/
+#banner ul{
+	list-style: none;
+	float: right;
+}
+#banner ul>li{
+	font-family: '微软雅黑';
+	float: left;
+	margin: 30px 20px;
+}
+#banner a{
+	color: #A9A9A9;
+	text-decoration: none;	
+}
+
+/*为导航nav设置样式*/
+#nav{
+	width: 1024px;
+	height: 50px;
+	padding: 1px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background-color: #fff;
+}
+#nav ul{
+	list-style: none;
+	margin-left: 50px;
+/*	padding-top: 15px;*/
+}
+#nav ul>li{
+	display: block;
+	width: 100px;
+	line-height: 20px;
+	font-family: '微软雅黑';
+	font-size: 16px;
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+#nav a{
+	display: block;
+	line-height: 50px;
+	color: #A9A9A9;
+	text-decoration: none;
+}
+#nav a:hover{
+	color: #fff;
+	background-color: #A9A9A9;
+}
+
+/*为搜索框设置宽度*/
+#search{
+	width: 500px;
+}
+#search-text{
+	width: 200px;
+}
+.search-float{
+	float: right;
+	margin-right: 20px;
+}
+
+/*为内容页进行样式设置*/
+#host{
+	width: 254px;
+	height: 420px;
+	background-color: #fff;
+	float: left;
+}
+#photo{
+	width: 770px;
+	float: right;
+	background-color: #fff;
+	padding: 10px;
+}
+#best-sale{
+	width: 254px;
+	padding-left: 30px;
+	background-color: #fff;
+	float: left;
+}
+#bsale{
+	height: 200px;
+	background-color: #fff;
+	border: 1px solid #A9A9A9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding-top: 20px;
+	text-align: center;
+}
+#bsale strong{
+	font-size: 16px;
+	color: red;
+}
+#popular{
+	float: left;
+	width: 770px;
+	height: 225px;
+	background-color: #fff;
+	text-align: center;
+	padding: 15px;
+}
+#popular table td{
+	padding-top: 20px;
+	padding-left: 25px;
+}
+#kind{
+	float: left;
+	width: 1024px;
+	height: 520px;
+	background-image: url(../images/content-main2.jpg);
+}
+#kind #div1{
+	float: left;
+	margin-top: 45px;
+	margin-left: 80px;
+}
+#kind #div2{
+	float: left;
+	margin-top: 45px;
+	margin-left: 140px;	
+}
+#kind #div3{
+	float: left;
+	margin-top: 75px;
+	margin-left: 80px;	
+}
+#kind #div4{
+	float: left;
+	margin-top: 75px;
+	margin-left: 140px;	
+}
+
+#footer{
+	text-align: center;
+	background-color: #fff;
+}
+#footer a{
+	text-decoration: none;
+}
+.footer-top{
+	background-color: #d9d9d9;
+	color: #fff;
+}
+.footer-top a{
+	color: #fff;
+}
